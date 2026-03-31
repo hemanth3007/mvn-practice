@@ -6,7 +6,7 @@ pipeline {
 	stages {
 		stage('Checkout') {
 			steps {
-				git branch: main, url: 'https://github.com/hemanth3007/mvn-practice.git'
+				git branch: 'main', url: 'https://github.com/hemanth3007/mvn-practice.git'
 			}
 		}
 		stage('Build') {

@@ -21,7 +21,7 @@ pipeline {
 		}
 		stage('Run Application') {
 			steps {
-				sh 'java -jar target/mvnPractice-1.0.jar
+				sh 'java -jar target/mvnPractice-1.0.jar'
 			}
 		}
 		
